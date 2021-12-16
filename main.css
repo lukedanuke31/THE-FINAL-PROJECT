@@ -1,22 +1,65 @@
+.navbar,
+.navbar-expand-lg,
+.navbar-dark,
+.bg-dark {
+  position: fixed;
+  width: 100%;
+}
+
 /* ============ background image ============ */
 .golfing-green {
   background-image: url("images/golfing-green.jpg");
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
+  width: 100%;
+  height: 450px;
 }
-/* nav */
-nav {
-  margin: 0 auto;
-  position: absolute;
-  bottom: 50px;
+/* hero */
+.mb-4,
+.fw-bold {
+  color: white;
+  padding-top: 25px;
+}
+/* footer */
+.footer {
+  width: 100%;
+  height: 400px;
+  background-color: #171717;
+  color: white;
+}
+.foot-text {
+  font-family: "Chakra Petch", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.foot-contact {
+  color: white;
+  font-size: 26px;
+  text-decoration: none;
+}
+.foot-contact:hover,
+.foot-item:hover {
+  color: gainsboro;
+}
+.foot-item {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.foot-org {
+  padding-left: 50px;
+  margin-top: 50px;
+  font-family: "Chakra Petch", sans-serif;
+  font-family: "Poppins", sans-serif;
+  display: inline-flex;
+}
+ul {
+  list-style: none;
 }
 
-.navbar-light .navbar-brand {
-  color: white;
+.bi {
+  margin-right: 13px;
 }
-.navbar-light .navbar-brand:hover {
-  color: black;
-}
-.navbar-light .navbar-nav .nav-link {
-  color: white;
+.foot-sub {
+  color: gray;
+  margin-left: 300px;
 }
