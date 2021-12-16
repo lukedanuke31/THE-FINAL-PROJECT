@@ -1,20 +1,22 @@
-/* ============ desktop view ============ */
-@media all and (min-width: 992px) {
-  .navbar .nav-item .dropdown-menu {
-    display: none;
-  }
-  .navbar .nav-item:hover .nav-link {
-    display: block;
-  }
-  .navbar .nav-item:hover .dropdown-menu {
-    display: block;
-  }
-  .navbar .nav-item .dropdown-menu {
-    margin-top: 0;
-  }
-}
-/* ============ desktop view .end// ============ */
-
+/* ============ background image ============ */
 .golfing-green {
   background-image: url("images/golfing-green.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* nav */
+nav {
+  margin: 0 auto;
+  position: absolute;
+  bottom: 50px;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+.navbar-light .navbar-brand:hover {
+  color: black;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white;
 }
