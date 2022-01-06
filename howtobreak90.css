@@ -1,14 +1,22 @@
-.howtobreak90 {
-  background-image: url("images/howtobreak90.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-}
+
 .navbar,
 .navbar-expand-lg,
 .navbar-dark,
 .bg-dark {
   position: fixed;
   width: 100%;
+}
+/* ============ background image ============ */
+.golfing-green {
+  background-image: url("images/golfing-green.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 450px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: 200px;
 }
 /* hero */
 .mb-4,
