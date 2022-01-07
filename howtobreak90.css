@@ -7,9 +7,9 @@
   width: 100%;
 }
 /* ============ background image ============ */
-.golfing-green {
-  background-image: url("images/golfing-green.jpg");
-  background-position: top;
+.golfing {
+  background-image: url("images/Skybrook-Hole16-Aerial.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: 450px;
